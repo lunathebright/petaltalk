@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌸 PetalTalk (가칭)
 
-## Getting Started
+“감정을 꽃으로 표현하는 서비스”
 
-First, run the development server:
+꽃말을 단순히 보여주는 것을 넘어,  
+사용자가 자신의 감정을 꽃과 메시지로 자연스럽게 전달할 수 있도록 돕는 것을 목표로 합니다.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ 주요 기능
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1. 꽃 검색 및 꽃말 조회
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+사용자가 꽃 이름을 검색하면 해당 꽃의 의미(꽃말)를 확인할 수 있습니다.
 
-## Learn More
+- 꽃 이름 기반 검색
+- 꽃말 및 간단한 설명 제공
+- 직관적인 UI로 빠른 정보 탐색
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2. 감정 기반 꽃 추천
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+사용자가 자신의 감정이나 상황을 입력하면, 그에 어울리는 꽃을 추천합니다.
 
-## Deploy on Vercel
+- 예: 고백, 위로, 축하, 짝사랑 등
+- 감정에 맞는 꽃 3~5개 추천
+- 각 꽃의 의미와 추천 이유 제공
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. 꽃말 기반 메시지 생성
+
+선택한 꽃을 기반으로 감성적인 메시지를 자동 생성합니다.
+
+- 짧은 문구 / 긴 문장 선택 가능
+- 다양한 톤 (감성, 담백, 캐주얼 등) 지원
+- 카드나 편지에 바로 활용 가능
+
+---
+
+### 4. 공유용 카드 생성
+
+꽃과 메시지를 조합해 공유 가능한 이미지를 생성합니다.
+
+- SNS 공유용 카드 UI
+- 꽃 + 메시지 + 배경 디자인 자동 구성
+- 간편한 다운로드 및 공유 기능
+
+---
+
+## 🎯 서비스 방향
+
+PetalTalk은 단순한 “꽃말 사전”이 아니라,  
+사용자의 감정을 꽃을 통해 표현하고 전달할 수 있도록 돕는  
+감정 기반 인터랙션 서비스입니다.
